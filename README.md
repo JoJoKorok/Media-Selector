@@ -20,7 +20,6 @@ Search, browse, and launch your local video content in a lightweight interface p
 
 - Python 3.8+
 - Tkinter (comes with most Python installations)
-- Optionally: [Pillow](https://pypi.org/project/Pillow/) if you want background image resizing
 
 ---
 
