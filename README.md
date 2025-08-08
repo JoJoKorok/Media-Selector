@@ -26,7 +26,7 @@ Search, browse, and launch your local video content in a lightweight interface p
 
 ## 🔧 Installation ##
 
-- Download the latest version in the Versions section.
+- Download the latest version in the Releases section.
 
 ---
 
