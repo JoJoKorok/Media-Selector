@@ -5,7 +5,7 @@ a = Analysis(
     ['gui.py'],
     pathex=[],
     binaries=[],
-    datas=[('assets\\\\background.png', 'assets'), ('data\\\\media.db', 'data')],
+    datas=[('assets\\background.png', 'assets'), ('data\\media.db', 'data')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

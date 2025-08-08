@@ -4,15 +4,19 @@ import sys
 from datetime import datetime
 
 def get_base_dir():
+    """Returns the writable base directory for persistent data."""
     if getattr(sys, 'frozen', False):
-        return sys._MEIPASS  # Temporary folder used by PyInstaller
+        # If bundled as an executable, store in AppData
+        return os.path.join(os.getenv("APPDATA"), "MediaSelector")
     else:
-        return os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+        # If running from source, use the local /data folder
+        return os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
 
-DB_PATH = os.path.join(get_base_dir(), "data", "media.db")
+# Final database path (AppData or /data/media.db)
+DB_PATH = os.path.join(get_base_dir(), "media.db")
 
 def init_db():
-    os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)  # Ensure data/ exists
+    os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)  # Ensure the folder exists
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("""

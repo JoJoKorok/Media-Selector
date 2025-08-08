@@ -16,12 +16,6 @@ Search, browse, and launch your local video content in a lightweight interface p
 
 ---
 
-## 🖥️ Screenshots ##
-
-![A screenshot of the program when launched.](images\screenshot1.png "Image of Program")
-
----
-
 ## 📦 Requirements ##
 
 - Python 3.8+
@@ -32,7 +26,7 @@ Search, browse, and launch your local video content in a lightweight interface p
 
 ## 🔧 Installation ##
 
-- W.I.P.
+- Download the latest version in the Versions section.
 
 ---
 

@@ -1,10 +1,15 @@
-import tkinter as tk
+# Media Selector
+# Copyright (C) 2025  JoJoKorok
+# Licensed under the GNU GPL v3 or later – see LICENSE file or https://www.gnu.org/licenses/
 
+import tkinter as tk
 import os
 import sys
 import random
 from tkinter import ttk, messagebox, filedialog, simpledialog
 from utils.path_utils import get_asset_path
+from data.media_db import init_db
+init_db()
 
 
 from data.media_db import (

@@ -1,3 +1,7 @@
+# Media Selector
+# Copyright (C) 2025  JoJoKorok
+# Licensed under the GNU GPL v3 or later – see LICENSE file or https://www.gnu.org/licenses/
+
 import os
 import sys
 from features.random_feature import get_random_subfolder_path

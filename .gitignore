@@ -1,0 +1,28 @@
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+# PyInstaller build folders
+build/
+dist/
+*.spec
+
+# Database
+data/media.db
+data/add_defaults.py
+init_db_runner.py
+
+# OS/Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment files
+.env
+*.log
+
+# EXE and other generated binaries
+*.exe
+*.dll
+*.bin
