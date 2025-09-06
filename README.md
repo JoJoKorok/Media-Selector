@@ -34,4 +34,4 @@ Search, browse, and launch your local video content in a lightweight interface p
 This project is licensed under the terms of the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
 You are free to use, modify, and redistribute this software, but any modified versions or derivative works must also be licensed under the GPL v3.  
-Please see the [LICENSE](LICENSE) file for full license details.
+Please see the [LICENSE](LICENSE.md) file for full license details.
