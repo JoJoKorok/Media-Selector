@@ -1,11 +1,11 @@
-## 🎬 Media Selector ##
+## Media Selector ##
 
 A personal-use media launcher built with Python and Tkinter.  
 Search, browse, and launch your local video content in a lightweight interface powered by a SQLite database.
 
 ---
 
-## 🚀 Features ##
+## Features ##
 
 - Search for specific titles across local folders
 - Browse media categories and subfolders
@@ -16,20 +16,20 @@ Search, browse, and launch your local video content in a lightweight interface p
 
 ---
 
-## 📦 Requirements ##
+## Requirements ##
 
 - Python 3.8+
 - Tkinter (comes with most Python installations)
 
 ---
 
-## 🔧 Installation ##
+## Installation ##
 
 - Download the latest version in the Releases section.
 
 ---
 
-## 🔐 License ##
+## License ##
 
 This project is licensed under the terms of the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
